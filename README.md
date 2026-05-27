@@ -68,3 +68,5 @@ The dashboard includes:
 - traffic source performance
 - revenue overview
 - product insights
+
+![Dashboard Preview](assets/dashboard_preview.png)
