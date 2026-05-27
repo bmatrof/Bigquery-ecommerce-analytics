@@ -69,4 +69,12 @@ The dashboard includes:
 - revenue overview
 - product insights
 
+## Dashboard Preview
+
 ![Dashboard Preview](assets/dashboard_preview.png)
+
+## Interactive Dashboard
+
+View the interactive Looker Studio dashboard here:
+
+[Open Dashboard](https://datastudio.google.com/reporting/26f3c177-d92b-42e3-81b6-96d4bbc75b5c)
