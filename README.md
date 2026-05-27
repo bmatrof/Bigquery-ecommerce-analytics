@@ -17,9 +17,12 @@ The main goal was to better understand:
 
 Google Analytics 4 Public Ecommerce Dataset:
 
+https://console.cloud.google.com/marketplace/product/google/ga4-obfuscated-ecommerce-data
+
+BigQuery public dataset:
+
 ```sql
 bigquery-public-data.ga4_obfuscated_sample_ecommerce
-```
 
 ## Tools Used
 
