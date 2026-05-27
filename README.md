@@ -1,4 +1,4 @@
-# BigQuery Ecommerce Analytics
+# Ga4-ecommerce-analytics
 
 Ecommerce customer journey and revenue analysis using GA4 data in BigQuery.
 
