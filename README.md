@@ -1,26 +1,24 @@
 # BigQuery Ecommerce Analytics
 
-Customer journey, funnel, and revenue analysis using GA4 ecommerce data in BigQuery.
+Ecommerce customer journey and revenue analysis using GA4 data in BigQuery.
 
 ## Project Overview
 
-In this project, I analyzed ecommerce user behavior using the Google Analytics 4 sample ecommerce dataset in BigQuery.
+In this project, I analyzed ecommerce user behavior using the Google Analytics 4 public ecommerce dataset.
 
-The main goal was to better understand:
-- where users leave the funnel
-- which traffic sources bring purchases
-- how device type affects conversion
-- which products get the most engagement
-- what drives revenue growth
+The analysis focused on:
+- funnel conversion
+- traffic source quality
+- device performance
+- product engagement
+- revenue performance
 
 ## Dataset
 
-This project uses the Google Analytics 4 sample ecommerce dataset available in BigQuery.
+Google Analytics 4 sample ecommerce dataset available in BigQuery.
 
-Dataset documentation:
+Dataset documentation:  
 https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset
-
-BigQuery public dataset:
 
 ```sql
 bigquery-public-data.ga4_obfuscated_sample_ecommerce
@@ -30,29 +28,43 @@ bigquery-public-data.ga4_obfuscated_sample_ecommerce
 
 - BigQuery
 - SQL
-- Python
 - Looker Studio
 
-## Business Questions
+## Key Insights
 
-1. Where do most users drop off in the funnel?
-2. Which traffic sources generate the most purchases?
-3. Do mobile and desktop users behave differently?
-4. Which products are viewed most often?
-5. What factors contribute most to revenue?
+- The dataset contains over 4.2M events and 270k users
+- Only 7.2% of users who viewed a product completed a purchase
+- The biggest funnel drop-off happened between product view and add-to-cart
+- Mobile users had slightly higher conversion rates than desktop users
+- Google generated the highest total revenue ($104k+)
+- Direct traffic showed stronger purchase intent and higher conversion quality
+- Average order value stayed stable across traffic sources (~$80)
+- Some products received high engagement but low purchase conversion
+
+## Analysis Included
+
+1. Dataset Overview  
+2. Funnel Analysis  
+3. Device Performance Analysis  
+4. Traffic Source Analysis  
+5. Product Performance Analysis  
+6. Revenue Analysis  
 
 ## Project Structure
 
 ```text
-sql/
-visuals/
-dashboard/
+bigquery-ecommerce-analytics/
+│
+├── sql/
+├── assets/
+└── README.md
 ```
 
 ## Dashboard
 
-The final dashboard will include:
-- conversion funnel analysis
+The dashboard includes:
+- funnel conversion analysis
+- device performance
 - traffic source performance
-- device conversion analysis
 - revenue overview
+- product insights
