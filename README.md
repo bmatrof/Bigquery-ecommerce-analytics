@@ -15,14 +15,16 @@ The main goal was to better understand:
 
 ## Dataset
 
-Google Analytics 4 Public Ecommerce Dataset:
+This project uses the Google Analytics 4 sample ecommerce dataset available in BigQuery.
 
-https://console.cloud.google.com/marketplace/product/google/ga4-obfuscated-ecommerce-data
+Dataset documentation:
+https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset
 
 BigQuery public dataset:
 
 ```sql
 bigquery-public-data.ga4_obfuscated_sample_ecommerce
+```
 
 ## Tools Used
 
